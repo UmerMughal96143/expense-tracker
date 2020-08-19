@@ -1,0 +1,75 @@
+.container {
+  max-width: 400px;
+  min-height: 200px;
+  margin: 0 auto;
+  background-color:#efefef;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 15px 20px;
+}
+.transaction-list{
+  margin: 0;
+  padding: 0;
+  
+}
+.transaction-list > li {
+  display:  flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px;
+  padding: 6px 5px;
+  background-color: white;
+}
+.text-center {
+  text-align: center;
+}
+/* .expense-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white ;
+  box-shadow: 0 0 10px gray;
+} */
+
+.income-expense{  
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px 3px #dedede;
+}
+
+.income-expense p{
+  font-weight: 700;
+}
+
+.income-expense span{
+  font-size: 26px;
+}
+
+.income, .expense{
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-weight: 600;  
+  font-size: 15px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.income span{
+  color: #0aee1d !important;
+}
+
+.expense span{
+  color: #e42020 !important;
+}
+
+
+.transaction-form input {
+width: 100% ;  
+margin: 4% 0;
+padding-bottom: 5px;
+}
+.transaction-list > li  :hover delte-transaction{
+  opacity: 1;
+  /* visibility: visible;
+  left: -20px; */
+}
